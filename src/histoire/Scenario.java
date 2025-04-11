@@ -26,13 +26,10 @@ public class Scenario {
 		village.setChef(abraracourcix);
 
 		ControlEmmenager controlEmmenager = new ControlEmmenager(village);
-		ControlAfficherVillage controlAfficherVillage = new ControlAfficherVillage(
-				village);
+		ControlAfficherVillage controlAfficherVillage = new ControlAfficherVillage(village);
 
-		ControlVerifierIdentite controlVerifierIdentite = new ControlVerifierIdentite(
-				village);
-		ControlTrouverEtalVendeur controlTrouverEtalVendeur = new ControlTrouverEtalVendeur(
-				village);
+		ControlVerifierIdentite controlVerifierIdentite = new ControlVerifierIdentite(village);
+		ControlTrouverEtalVendeur controlTrouverEtalVendeur = new ControlTrouverEtalVendeur(village);
 
 		ControlPrendreEtal controlChercherEtal = new ControlPrendreEtal(
 				controlVerifierIdentite, village);
